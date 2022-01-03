@@ -7,9 +7,9 @@ metadata:
 spec:
   configuration:
     settings:
-      dictionaries_config: config.d/*.dict
+      dictionaries_config: config.d/dict_*.xml
     files:
-      dict_one.dict: |
+      dict_one.xml: |
         <yandex>
           <dictionary>
         <name>one</name>
